@@ -1,0 +1,1693 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY swrl "http://www.w3.org/2003/11/swrl#" >
+    <!ENTITY swrlb "http://www.w3.org/2003/11/swrlb#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Ontologyforpaper3 "http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#" >
+    <!ENTITY Ontologyforpaper33 "http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#3" >
+    <!ENTITY Ontologyforpaper37 "http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#32" >
+    <!ENTITY Ontologyforpaper32 "http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#22" >
+    <!ENTITY Ontologyforpaper35 "http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#3215" >
+    <!ENTITY Ontologyforpaper34 "http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#2201" >
+    <!ENTITY Ontologyforpaper36 "http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#3202" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl"
+     xmlns:Ontologyforpaper3="http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:Ontologyforpaper35="&Ontologyforpaper3;3215"
+     xmlns:Ontologyforpaper32="&Ontologyforpaper3;22"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:Ontologyforpaper36="&Ontologyforpaper3;3202"
+     xmlns:Ontologyforpaper37="&Ontologyforpaper3;32"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:Ontologyforpaper34="&Ontologyforpaper3;2201"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:Ontologyforpaper33="&Ontologyforpaper3;3">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#enforceOn -->
+
+    <owl:ObjectProperty rdf:about="&Ontologyforpaper3;enforceOn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#fromPolicy -->
+
+    <owl:ObjectProperty rdf:about="&Ontologyforpaper3;fromPolicy">
+        <owl:inverseOf rdf:resource="&Ontologyforpaper3;enforceOn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#hasAction -->
+
+    <owl:ObjectProperty rdf:about="&Ontologyforpaper3;hasAction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#hasAttribute -->
+
+    <owl:ObjectProperty rdf:about="&Ontologyforpaper3;hasAttribute"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#hasAuthorisation -->
+
+    <owl:ObjectProperty rdf:about="&Ontologyforpaper3;hasAuthorisation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#hasEffect -->
+
+    <owl:ObjectProperty rdf:about="&Ontologyforpaper3;hasEffect"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#hasEnvironment -->
+
+    <owl:ObjectProperty rdf:about="&Ontologyforpaper3;hasEnvironment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#hasFunction -->
+
+    <owl:ObjectProperty rdf:about="&Ontologyforpaper3;hasFunction">
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#hasObligation -->
+
+    <owl:ObjectProperty rdf:about="&Ontologyforpaper3;hasObligation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#hasPart -->
+
+    <owl:ObjectProperty rdf:about="&Ontologyforpaper3;hasPart"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#hasPatient -->
+
+    <owl:ObjectProperty rdf:about="&Ontologyforpaper3;hasPatient"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#hasResource -->
+
+    <owl:ObjectProperty rdf:about="&Ontologyforpaper3;hasResource"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#hasSubject -->
+
+    <owl:ObjectProperty rdf:about="&Ontologyforpaper3;hasSubject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#hasTarget -->
+
+    <owl:ObjectProperty rdf:about="&Ontologyforpaper3;hasTarget"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#ir -->
+
+    <owl:ObjectProperty rdf:about="&Ontologyforpaper3;ir"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#isA -->
+
+    <owl:ObjectProperty rdf:about="&Ontologyforpaper3;isA"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="&Ontologyforpaper3;isPartOf">
+        <owl:inverseOf rdf:resource="&Ontologyforpaper3;hasPart"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#juniorTo -->
+
+    <owl:ObjectProperty rdf:about="&Ontologyforpaper3;juniorTo">
+        <owl:inverseOf rdf:resource="&Ontologyforpaper3;seniorTo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#seniorTo -->
+
+    <owl:ObjectProperty rdf:about="&Ontologyforpaper3;seniorTo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Age -->
+
+    <owl:Class rdf:about="&Ontologyforpaper3;Age">
+        <rdfs:subClassOf rdf:resource="&Ontologyforpaper3;Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Attribute -->
+
+    <owl:Class rdf:about="&Ontologyforpaper3;Attribute">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Authorisation -->
+
+    <owl:Class rdf:about="&Ontologyforpaper3;Authorisation">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Effect -->
+
+    <owl:Class rdf:about="&Ontologyforpaper3;Effect">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Element -->
+
+    <owl:Class rdf:about="&Ontologyforpaper3;Element">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Ethnicity -->
+
+    <owl:Class rdf:about="&Ontologyforpaper3;Ethnicity">
+        <rdfs:subClassOf rdf:resource="&Ontologyforpaper3;Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Gender -->
+
+    <owl:Class rdf:about="&Ontologyforpaper3;Gender">
+        <rdfs:subClassOf rdf:resource="&Ontologyforpaper3;Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Language -->
+
+    <owl:Class rdf:about="&Ontologyforpaper3;Language">
+        <rdfs:subClassOf rdf:resource="&Ontologyforpaper3;Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Obligation -->
+
+    <owl:Class rdf:about="&Ontologyforpaper3;Obligation">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Obligation_N -->
+
+    <owl:Class rdf:about="&Ontologyforpaper3;Obligation_N">
+        <rdfs:subClassOf rdf:resource="&Ontologyforpaper3;Obligation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Obligation_P -->
+
+    <owl:Class rdf:about="&Ontologyforpaper3;Obligation_P">
+        <rdfs:subClassOf rdf:resource="&Ontologyforpaper3;Obligation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Patient -->
+
+    <owl:Class rdf:about="&Ontologyforpaper3;Patient"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Permission -->
+
+    <owl:Class rdf:about="&Ontologyforpaper3;Permission">
+        <rdfs:subClassOf rdf:resource="&Ontologyforpaper3;Authorisation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Policy -->
+
+    <owl:Class rdf:about="&Ontologyforpaper3;Policy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Postcode -->
+
+    <owl:Class rdf:about="&Ontologyforpaper3;Postcode">
+        <rdfs:subClassOf rdf:resource="&Ontologyforpaper3;Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Prohibition -->
+
+    <owl:Class rdf:about="&Ontologyforpaper3;Prohibition">
+        <rdfs:subClassOf rdf:resource="&Ontologyforpaper3;Authorisation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Resource -->
+
+    <owl:Class rdf:about="&Ontologyforpaper3;Resource">
+        <rdfs:subClassOf rdf:resource="&Ontologyforpaper3;Effect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Role -->
+
+    <owl:Class rdf:about="&Ontologyforpaper3;Role">
+        <rdfs:subClassOf rdf:resource="&Ontologyforpaper3;Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Statistic_Area -->
+
+    <owl:Class rdf:about="&Ontologyforpaper3;Statistic_Area">
+        <rdfs:subClassOf rdf:resource="&Ontologyforpaper3;Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Target -->
+
+    <owl:Class rdf:about="&Ontologyforpaper3;Target">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#2201_Greek -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;2201_Greek">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Language"/>
+        <isA rdf:resource="&Ontologyforpaper3;22_Greek"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#22_Greek -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;22_Greek">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#3202_Bosnian -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;3202_Bosnian">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Ethnicity"/>
+        <isA rdf:resource="&Ontologyforpaper3;32_South_Eastern_European"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#3215_Greek -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;3215_Greek">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Ethnicity"/>
+        <isA rdf:resource="&Ontologyforpaper3;32_South_Eastern_European"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#32_South_Eastern_European -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;32_South_Eastern_European">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Ethnicity"/>
+        <isA rdf:resource="&Ontologyforpaper3;3_Southern_and_Eastern_European"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#3_Southern_and_Eastern_European -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;3_Southern_and_Eastern_European">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Ethnicity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#ADDN -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;ADDN">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Attribute"/>
+        <rdf:type rdf:resource="&Ontologyforpaper3;Resource"/>
+        <hasPatient rdf:resource="&Ontologyforpaper3;Patient_1"/>
+        <hasPatient rdf:resource="&Ontologyforpaper3;Patient_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#ADDN_Clinician -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;ADDN_Clinician">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Role"/>
+        <juniorTo rdf:resource="&Ontologyforpaper3;ADDN_Diabetologist"/>
+        <owl:sameAs rdf:resource="&Ontologyforpaper3;VH_Researcher"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#ADDN_Diabetologist -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;ADDN_Diabetologist">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#ADDN_Nurse -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;ADDN_Nurse">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Role"/>
+        <juniorTo rdf:resource="&Ontologyforpaper3;ADDN_Clinician"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Act_1 -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;Act_1">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Element"/>
+        <hasAttribute rdf:resource="&Ontologyforpaper3;Read"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Authorisation_1 -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;Authorisation_1">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Permission"/>
+        <hasTarget rdf:resource="&Ontologyforpaper3;Tar_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Authorisation_2 -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;Authorisation_2">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Permission"/>
+        <hasTarget rdf:resource="&Ontologyforpaper3;Tar_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Env_1 -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;Env_1">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Element"/>
+        <hasAttribute rdf:resource="&Ontologyforpaper3;Research"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Generalisation -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;Generalisation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Obligation_1 -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;Obligation_1">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Obligation_P"/>
+        <hasFunction rdf:resource="&Ontologyforpaper3;Generalisation"/>
+        <hasTarget rdf:resource="&Ontologyforpaper3;Tar_3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Obligation_2 -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;Obligation_2">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Obligation_P"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Patient_1 -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;Patient_1">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Patient"/>
+        <hasAttribute rdf:resource="&Ontologyforpaper3;3215_Greek"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Patient_2 -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;Patient_2">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Patient"/>
+        <hasAttribute rdf:resource="&Ontologyforpaper3;32_South_Eastern_European"/>
+        <hasAttribute rdf:resource="&Ontologyforpaper3;ZIP_4117"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Policy_1 -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;Policy_1">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Policy"/>
+        <hasAuthorisation rdf:resource="&Ontologyforpaper3;Authorisation_1"/>
+        <hasAuthorisation rdf:resource="&Ontologyforpaper3;Obligation_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Policy_2 -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;Policy_2">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Policy"/>
+        <hasAuthorisation rdf:resource="&Ontologyforpaper3;Authorisation_2"/>
+        <hasAuthorisation rdf:resource="&Ontologyforpaper3;Obligation_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Read -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;Read">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Attribute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Res_1 -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;Res_1">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Element"/>
+        <hasAttribute rdf:resource="&Ontologyforpaper3;ADDN"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Res_2 -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;Res_2">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Element"/>
+        <hasAttribute rdf:resource="&Ontologyforpaper3;VicHealth"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Research -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;Research">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Attribute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#SA1-31103131212 -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;SA1-31103131212">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Statistic_Area"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Sub_1 -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;Sub_1">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Element"/>
+        <hasAttribute rdf:resource="&Ontologyforpaper3;ADDN_Clinician"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Sub_2 -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;Sub_2">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Element"/>
+        <hasAttribute rdf:resource="&Ontologyforpaper3;VH_Researcher"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Tar_1 -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;Tar_1">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Target"/>
+        <hasAction rdf:resource="&Ontologyforpaper3;Act_1"/>
+        <hasEnvironment rdf:resource="&Ontologyforpaper3;Env_1"/>
+        <hasResource rdf:resource="&Ontologyforpaper3;Res_1"/>
+        <hasSubject rdf:resource="&Ontologyforpaper3;Sub_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Tar_2 -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;Tar_2">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Target"/>
+        <hasAction rdf:resource="&Ontologyforpaper3;Act_1"/>
+        <hasEnvironment rdf:resource="&Ontologyforpaper3;Env_1"/>
+        <hasResource rdf:resource="&Ontologyforpaper3;Res_2"/>
+        <hasSubject rdf:resource="&Ontologyforpaper3;Sub_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#Tar_3 -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;Tar_3">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Target"/>
+        <hasResource rdf:resource="&Ontologyforpaper3;Res_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#VH_Admin -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;VH_Admin">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#VH_Researcher -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;VH_Researcher">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#VicHealth -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;VicHealth">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Attribute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2017/0/Ontologyforpaper3.owl#ZIP_4117 -->
+
+    <owl:NamedIndividual rdf:about="&Ontologyforpaper3;ZIP_4117">
+        <rdf:type rdf:resource="&Ontologyforpaper3;Postcode"/>
+        <hasPart rdf:resource="&Ontologyforpaper3;SA1-31103131212"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <swrl:Variable rdf:about="urn:swrl#o"/>
+    <swrl:Variable rdf:about="urn:swrl#s"/>
+    <swrl:Variable rdf:about="urn:swrl#r"/>
+    <swrl:Variable rdf:about="urn:swrl#t"/>
+    <swrl:Variable rdf:about="urn:swrl#a"/>
+    <swrl:Variable rdf:about="urn:swrl#r1"/>
+    <swrl:Variable rdf:about="urn:swrl#e"/>
+    <swrl:Variable rdf:about="urn:swrl#e’"/>
+    <swrl:Variable rdf:about="urn:swrl#p"/>
+    <swrl:Variable rdf:about="urn:swrl#l"/>
+    <swrl:Imp>
+        <swrl:body>
+            <swrl:AtomList>
+                <rdf:rest>
+                    <swrl:AtomList>
+                        <rdf:first>
+                            <swrl:IndividualPropertyAtom>
+                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasAttribute"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#r"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#s"/>
+                            </swrl:IndividualPropertyAtom>
+                        </rdf:first>
+                        <rdf:rest>
+                            <swrl:AtomList>
+                                <rdf:first>
+                                    <swrl:IndividualPropertyAtom>
+                                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasSubject"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#s"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#t"/>
+                                    </swrl:IndividualPropertyAtom>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <swrl:AtomList>
+                                        <rdf:rest rdf:resource="&rdf;nil"/>
+                                        <rdf:first>
+                                            <swrl:IndividualPropertyAtom>
+                                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasTarget"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#t"/>
+                                            </swrl:IndividualPropertyAtom>
+                                        </rdf:first>
+                                    </swrl:AtomList>
+                                </rdf:rest>
+                            </swrl:AtomList>
+                        </rdf:rest>
+                    </swrl:AtomList>
+                </rdf:rest>
+                <rdf:first>
+                    <swrl:ClassAtom>
+                        <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Obligation"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                    </swrl:ClassAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:body>
+        <swrl:head>
+            <swrl:AtomList>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <swrl:IndividualPropertyAtom>
+                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#r"/>
+                    </swrl:IndividualPropertyAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:head>
+    </swrl:Imp>
+    <swrl:Imp>
+        <swrl:head>
+            <swrl:AtomList>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <swrl:IndividualPropertyAtom>
+                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#r1"/>
+                    </swrl:IndividualPropertyAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:head>
+        <swrl:body>
+            <swrl:AtomList>
+                <rdf:first>
+                    <swrl:ClassAtom>
+                        <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Prohibition"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                    </swrl:ClassAtom>
+                </rdf:first>
+                <rdf:rest>
+                    <swrl:AtomList>
+                        <rdf:first>
+                            <swrl:IndividualPropertyAtom>
+                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasAttribute"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#r"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#s"/>
+                            </swrl:IndividualPropertyAtom>
+                        </rdf:first>
+                        <rdf:rest>
+                            <swrl:AtomList>
+                                <rdf:rest>
+                                    <swrl:AtomList>
+                                        <rdf:first>
+                                            <swrl:IndividualPropertyAtom>
+                                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasTarget"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#t"/>
+                                            </swrl:IndividualPropertyAtom>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <swrl:AtomList>
+                                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                                <rdf:first>
+                                                    <swrl:IndividualPropertyAtom>
+                                                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;seniorTo"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#r"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#r1"/>
+                                                    </swrl:IndividualPropertyAtom>
+                                                </rdf:first>
+                                            </swrl:AtomList>
+                                        </rdf:rest>
+                                    </swrl:AtomList>
+                                </rdf:rest>
+                                <rdf:first>
+                                    <swrl:IndividualPropertyAtom>
+                                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasSubject"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#s"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#t"/>
+                                    </swrl:IndividualPropertyAtom>
+                                </rdf:first>
+                            </swrl:AtomList>
+                        </rdf:rest>
+                    </swrl:AtomList>
+                </rdf:rest>
+            </swrl:AtomList>
+        </swrl:body>
+    </swrl:Imp>
+    <swrl:Imp>
+        <swrl:body>
+            <swrl:AtomList>
+                <rdf:first>
+                    <swrl:ClassAtom>
+                        <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Obligation"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                    </swrl:ClassAtom>
+                </rdf:first>
+                <rdf:rest>
+                    <swrl:AtomList>
+                        <rdf:rest>
+                            <swrl:AtomList>
+                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                <rdf:first>
+                                    <swrl:SameIndividualAtom>
+                                        <swrl:argument2 rdf:resource="urn:swrl#r"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#r1"/>
+                                    </swrl:SameIndividualAtom>
+                                </rdf:first>
+                            </swrl:AtomList>
+                        </rdf:rest>
+                        <rdf:first>
+                            <swrl:IndividualPropertyAtom>
+                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#r"/>
+                            </swrl:IndividualPropertyAtom>
+                        </rdf:first>
+                    </swrl:AtomList>
+                </rdf:rest>
+            </swrl:AtomList>
+        </swrl:body>
+        <swrl:head>
+            <swrl:AtomList>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <swrl:IndividualPropertyAtom>
+                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#r1"/>
+                    </swrl:IndividualPropertyAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:head>
+    </swrl:Imp>
+    <swrl:Imp>
+        <swrl:head>
+            <swrl:AtomList>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <swrl:IndividualPropertyAtom>
+                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#e’"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                    </swrl:IndividualPropertyAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:head>
+        <swrl:body>
+            <swrl:AtomList>
+                <rdf:first>
+                    <swrl:ClassAtom>
+                        <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Ethnicity"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
+                    </swrl:ClassAtom>
+                </rdf:first>
+                <rdf:rest>
+                    <swrl:AtomList>
+                        <rdf:first>
+                            <swrl:ClassAtom>
+                                <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Ethnicity"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#e’"/>
+                            </swrl:ClassAtom>
+                        </rdf:first>
+                        <rdf:rest>
+                            <swrl:AtomList>
+                                <rdf:rest>
+                                    <swrl:AtomList>
+                                        <rdf:rest>
+                                            <swrl:AtomList>
+                                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                                <rdf:first>
+                                                    <swrl:IndividualPropertyAtom>
+                                                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;isA"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#e"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#e’"/>
+                                                    </swrl:IndividualPropertyAtom>
+                                                </rdf:first>
+                                            </swrl:AtomList>
+                                        </rdf:rest>
+                                        <rdf:first>
+                                            <swrl:IndividualPropertyAtom>
+                                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#e"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                                            </swrl:IndividualPropertyAtom>
+                                        </rdf:first>
+                                    </swrl:AtomList>
+                                </rdf:rest>
+                                <rdf:first>
+                                    <swrl:ClassAtom>
+                                        <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Obligation"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                                    </swrl:ClassAtom>
+                                </rdf:first>
+                            </swrl:AtomList>
+                        </rdf:rest>
+                    </swrl:AtomList>
+                </rdf:rest>
+            </swrl:AtomList>
+        </swrl:body>
+    </swrl:Imp>
+    <swrl:Imp>
+        <swrl:head>
+            <swrl:AtomList>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <swrl:IndividualPropertyAtom>
+                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#e"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                    </swrl:IndividualPropertyAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:head>
+        <swrl:body>
+            <swrl:AtomList>
+                <rdf:rest>
+                    <swrl:AtomList>
+                        <rdf:first>
+                            <swrl:IndividualPropertyAtom>
+                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasAttribute"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#e"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#r"/>
+                            </swrl:IndividualPropertyAtom>
+                        </rdf:first>
+                        <rdf:rest>
+                            <swrl:AtomList>
+                                <rdf:first>
+                                    <swrl:IndividualPropertyAtom>
+                                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasResource"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#r"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#t"/>
+                                    </swrl:IndividualPropertyAtom>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <swrl:AtomList>
+                                        <rdf:rest rdf:resource="&rdf;nil"/>
+                                        <rdf:first>
+                                            <swrl:IndividualPropertyAtom>
+                                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasTarget"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#t"/>
+                                            </swrl:IndividualPropertyAtom>
+                                        </rdf:first>
+                                    </swrl:AtomList>
+                                </rdf:rest>
+                            </swrl:AtomList>
+                        </rdf:rest>
+                    </swrl:AtomList>
+                </rdf:rest>
+                <rdf:first>
+                    <swrl:ClassAtom>
+                        <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Obligation"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                    </swrl:ClassAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:body>
+    </swrl:Imp>
+    <swrl:Imp>
+        <swrl:body>
+            <swrl:AtomList>
+                <rdf:rest>
+                    <swrl:AtomList>
+                        <rdf:first>
+                            <swrl:ClassAtom>
+                                <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Language"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#l"/>
+                            </swrl:ClassAtom>
+                        </rdf:first>
+                        <rdf:rest>
+                            <swrl:AtomList>
+                                <rdf:first>
+                                    <swrl:ClassAtom>
+                                        <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Obligation"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                                    </swrl:ClassAtom>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <swrl:AtomList>
+                                        <rdf:rest>
+                                            <swrl:AtomList>
+                                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                                <rdf:first>
+                                                    <swrl:IndividualPropertyAtom>
+                                                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;ir"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#e"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#l"/>
+                                                    </swrl:IndividualPropertyAtom>
+                                                </rdf:first>
+                                            </swrl:AtomList>
+                                        </rdf:rest>
+                                        <rdf:first>
+                                            <swrl:IndividualPropertyAtom>
+                                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#e"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                                            </swrl:IndividualPropertyAtom>
+                                        </rdf:first>
+                                    </swrl:AtomList>
+                                </rdf:rest>
+                            </swrl:AtomList>
+                        </rdf:rest>
+                    </swrl:AtomList>
+                </rdf:rest>
+                <rdf:first>
+                    <swrl:ClassAtom>
+                        <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Ethnicity"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
+                    </swrl:ClassAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:body>
+        <swrl:head>
+            <swrl:AtomList>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <swrl:IndividualPropertyAtom>
+                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#l"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                    </swrl:IndividualPropertyAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:head>
+    </swrl:Imp>
+    <swrl:Imp>
+        <swrl:body>
+            <swrl:AtomList>
+                <rdf:rest>
+                    <swrl:AtomList>
+                        <rdf:first>
+                            <swrl:ClassAtom>
+                                <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Postcode"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#p"/>
+                            </swrl:ClassAtom>
+                        </rdf:first>
+                        <rdf:rest>
+                            <swrl:AtomList>
+                                <rdf:first>
+                                    <swrl:ClassAtom>
+                                        <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Statistic_Area"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#s"/>
+                                    </swrl:ClassAtom>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <swrl:AtomList>
+                                        <rdf:first>
+                                            <swrl:IndividualPropertyAtom>
+                                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#p"/>
+                                            </swrl:IndividualPropertyAtom>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <swrl:AtomList>
+                                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                                <rdf:first>
+                                                    <swrl:IndividualPropertyAtom>
+                                                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasPart"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#p"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#s"/>
+                                                    </swrl:IndividualPropertyAtom>
+                                                </rdf:first>
+                                            </swrl:AtomList>
+                                        </rdf:rest>
+                                    </swrl:AtomList>
+                                </rdf:rest>
+                            </swrl:AtomList>
+                        </rdf:rest>
+                    </swrl:AtomList>
+                </rdf:rest>
+                <rdf:first>
+                    <swrl:ClassAtom>
+                        <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Obligation"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                    </swrl:ClassAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:body>
+        <swrl:head>
+            <swrl:AtomList>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <swrl:IndividualPropertyAtom>
+                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#s"/>
+                    </swrl:IndividualPropertyAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:head>
+    </swrl:Imp>
+    <swrl:Imp>
+        <swrl:body>
+            <swrl:AtomList>
+                <rdf:first>
+                    <swrl:ClassAtom>
+                        <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Authorisation"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                    </swrl:ClassAtom>
+                </rdf:first>
+                <rdf:rest>
+                    <swrl:AtomList>
+                        <rdf:first>
+                            <swrl:IndividualPropertyAtom>
+                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasAttribute"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#r"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#s"/>
+                            </swrl:IndividualPropertyAtom>
+                        </rdf:first>
+                        <rdf:rest>
+                            <swrl:AtomList>
+                                <rdf:rest>
+                                    <swrl:AtomList>
+                                        <rdf:rest rdf:resource="&rdf;nil"/>
+                                        <rdf:first>
+                                            <swrl:IndividualPropertyAtom>
+                                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasTarget"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#t"/>
+                                            </swrl:IndividualPropertyAtom>
+                                        </rdf:first>
+                                    </swrl:AtomList>
+                                </rdf:rest>
+                                <rdf:first>
+                                    <swrl:IndividualPropertyAtom>
+                                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasSubject"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#s"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#t"/>
+                                    </swrl:IndividualPropertyAtom>
+                                </rdf:first>
+                            </swrl:AtomList>
+                        </rdf:rest>
+                    </swrl:AtomList>
+                </rdf:rest>
+            </swrl:AtomList>
+        </swrl:body>
+        <swrl:head>
+            <swrl:AtomList>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <swrl:IndividualPropertyAtom>
+                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#r"/>
+                    </swrl:IndividualPropertyAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:head>
+    </swrl:Imp>
+    <swrl:Imp>
+        <swrl:body>
+            <swrl:AtomList>
+                <rdf:rest>
+                    <swrl:AtomList>
+                        <rdf:rest>
+                            <swrl:AtomList>
+                                <rdf:rest>
+                                    <swrl:AtomList>
+                                        <rdf:rest>
+                                            <swrl:AtomList>
+                                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                                <rdf:first>
+                                                    <swrl:IndividualPropertyAtom>
+                                                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasPatient"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#p"/>
+                                                    </swrl:IndividualPropertyAtom>
+                                                </rdf:first>
+                                            </swrl:AtomList>
+                                        </rdf:rest>
+                                        <rdf:first>
+                                            <swrl:IndividualPropertyAtom>
+                                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasAttribute"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#e"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#p"/>
+                                            </swrl:IndividualPropertyAtom>
+                                        </rdf:first>
+                                    </swrl:AtomList>
+                                </rdf:rest>
+                                <rdf:first>
+                                    <swrl:IndividualPropertyAtom>
+                                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#a"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                                    </swrl:IndividualPropertyAtom>
+                                </rdf:first>
+                            </swrl:AtomList>
+                        </rdf:rest>
+                        <rdf:first>
+                            <swrl:ClassAtom>
+                                <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Resource"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                            </swrl:ClassAtom>
+                        </rdf:first>
+                    </swrl:AtomList>
+                </rdf:rest>
+                <rdf:first>
+                    <swrl:ClassAtom>
+                        <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Obligation"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                    </swrl:ClassAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:body>
+        <swrl:head>
+            <swrl:AtomList>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <swrl:IndividualPropertyAtom>
+                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#e"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                    </swrl:IndividualPropertyAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:head>
+    </swrl:Imp>
+    <swrl:Imp>
+        <swrl:head>
+            <swrl:AtomList>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <swrl:IndividualPropertyAtom>
+                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#e"/>
+                    </swrl:IndividualPropertyAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:head>
+        <swrl:body>
+            <swrl:AtomList>
+                <rdf:rest>
+                    <swrl:AtomList>
+                        <rdf:rest>
+                            <swrl:AtomList>
+                                <rdf:rest>
+                                    <swrl:AtomList>
+                                        <rdf:first>
+                                            <swrl:IndividualPropertyAtom>
+                                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#e’"/>
+                                            </swrl:IndividualPropertyAtom>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <swrl:AtomList>
+                                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                                <rdf:first>
+                                                    <swrl:IndividualPropertyAtom>
+                                                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;isA"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#e"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#e’"/>
+                                                    </swrl:IndividualPropertyAtom>
+                                                </rdf:first>
+                                            </swrl:AtomList>
+                                        </rdf:rest>
+                                    </swrl:AtomList>
+                                </rdf:rest>
+                                <rdf:first>
+                                    <swrl:ClassAtom>
+                                        <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Ethnicity"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#e’"/>
+                                    </swrl:ClassAtom>
+                                </rdf:first>
+                            </swrl:AtomList>
+                        </rdf:rest>
+                        <rdf:first>
+                            <swrl:ClassAtom>
+                                <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Ethnicity"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#e"/>
+                            </swrl:ClassAtom>
+                        </rdf:first>
+                    </swrl:AtomList>
+                </rdf:rest>
+                <rdf:first>
+                    <swrl:ClassAtom>
+                        <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Authorisation"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                    </swrl:ClassAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:body>
+    </swrl:Imp>
+    <swrl:Imp>
+        <swrl:body>
+            <swrl:AtomList>
+                <rdf:first>
+                    <swrl:ClassAtom>
+                        <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Authorisation"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                    </swrl:ClassAtom>
+                </rdf:first>
+                <rdf:rest>
+                    <swrl:AtomList>
+                        <rdf:rest>
+                            <swrl:AtomList>
+                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                <rdf:first>
+                                    <swrl:SameIndividualAtom>
+                                        <swrl:argument2 rdf:resource="urn:swrl#r"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#r1"/>
+                                    </swrl:SameIndividualAtom>
+                                </rdf:first>
+                            </swrl:AtomList>
+                        </rdf:rest>
+                        <rdf:first>
+                            <swrl:IndividualPropertyAtom>
+                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#r"/>
+                            </swrl:IndividualPropertyAtom>
+                        </rdf:first>
+                    </swrl:AtomList>
+                </rdf:rest>
+            </swrl:AtomList>
+        </swrl:body>
+        <swrl:head>
+            <swrl:AtomList>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <swrl:IndividualPropertyAtom>
+                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#r1"/>
+                    </swrl:IndividualPropertyAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:head>
+    </swrl:Imp>
+    <swrl:Imp>
+        <swrl:body>
+            <swrl:AtomList>
+                <rdf:rest>
+                    <swrl:AtomList>
+                        <rdf:rest>
+                            <swrl:AtomList>
+                                <rdf:rest>
+                                    <swrl:AtomList>
+                                        <rdf:rest>
+                                            <swrl:AtomList>
+                                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                                <rdf:first>
+                                                    <swrl:IndividualPropertyAtom>
+                                                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasPatient"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#p"/>
+                                                    </swrl:IndividualPropertyAtom>
+                                                </rdf:first>
+                                            </swrl:AtomList>
+                                        </rdf:rest>
+                                        <rdf:first>
+                                            <swrl:IndividualPropertyAtom>
+                                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasAttribute"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#e"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#p"/>
+                                            </swrl:IndividualPropertyAtom>
+                                        </rdf:first>
+                                    </swrl:AtomList>
+                                </rdf:rest>
+                                <rdf:first>
+                                    <swrl:IndividualPropertyAtom>
+                                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#a"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                                    </swrl:IndividualPropertyAtom>
+                                </rdf:first>
+                            </swrl:AtomList>
+                        </rdf:rest>
+                        <rdf:first>
+                            <swrl:ClassAtom>
+                                <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Resource"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                            </swrl:ClassAtom>
+                        </rdf:first>
+                    </swrl:AtomList>
+                </rdf:rest>
+                <rdf:first>
+                    <swrl:ClassAtom>
+                        <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Authorisation"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                    </swrl:ClassAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:body>
+        <swrl:head>
+            <swrl:AtomList>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <swrl:IndividualPropertyAtom>
+                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#e"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                    </swrl:IndividualPropertyAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:head>
+    </swrl:Imp>
+    <swrl:Imp>
+        <swrl:body>
+            <swrl:AtomList>
+                <rdf:rest>
+                    <swrl:AtomList>
+                        <rdf:rest>
+                            <swrl:AtomList>
+                                <rdf:first>
+                                    <swrl:IndividualPropertyAtom>
+                                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasSubject"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#s"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#t"/>
+                                    </swrl:IndividualPropertyAtom>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <swrl:AtomList>
+                                        <rdf:first>
+                                            <swrl:IndividualPropertyAtom>
+                                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasTarget"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#t"/>
+                                            </swrl:IndividualPropertyAtom>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <swrl:AtomList>
+                                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                                <rdf:first>
+                                                    <swrl:IndividualPropertyAtom>
+                                                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;seniorTo"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#r"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#r1"/>
+                                                    </swrl:IndividualPropertyAtom>
+                                                </rdf:first>
+                                            </swrl:AtomList>
+                                        </rdf:rest>
+                                    </swrl:AtomList>
+                                </rdf:rest>
+                            </swrl:AtomList>
+                        </rdf:rest>
+                        <rdf:first>
+                            <swrl:IndividualPropertyAtom>
+                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasAttribute"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#r"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#s"/>
+                            </swrl:IndividualPropertyAtom>
+                        </rdf:first>
+                    </swrl:AtomList>
+                </rdf:rest>
+                <rdf:first>
+                    <swrl:ClassAtom>
+                        <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Obligation_P"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                    </swrl:ClassAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:body>
+        <swrl:head>
+            <swrl:AtomList>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <swrl:IndividualPropertyAtom>
+                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#r1"/>
+                    </swrl:IndividualPropertyAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:head>
+    </swrl:Imp>
+    <swrl:Imp>
+        <swrl:head>
+            <swrl:AtomList>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <swrl:IndividualPropertyAtom>
+                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#e"/>
+                    </swrl:IndividualPropertyAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:head>
+        <swrl:body>
+            <swrl:AtomList>
+                <rdf:rest>
+                    <swrl:AtomList>
+                        <rdf:first>
+                            <swrl:IndividualPropertyAtom>
+                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasAttribute"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#e"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#r"/>
+                            </swrl:IndividualPropertyAtom>
+                        </rdf:first>
+                        <rdf:rest>
+                            <swrl:AtomList>
+                                <rdf:rest>
+                                    <swrl:AtomList>
+                                        <rdf:rest rdf:resource="&rdf;nil"/>
+                                        <rdf:first>
+                                            <swrl:IndividualPropertyAtom>
+                                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasTarget"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#t"/>
+                                            </swrl:IndividualPropertyAtom>
+                                        </rdf:first>
+                                    </swrl:AtomList>
+                                </rdf:rest>
+                                <rdf:first>
+                                    <swrl:IndividualPropertyAtom>
+                                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasResource"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#r"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#t"/>
+                                    </swrl:IndividualPropertyAtom>
+                                </rdf:first>
+                            </swrl:AtomList>
+                        </rdf:rest>
+                    </swrl:AtomList>
+                </rdf:rest>
+                <rdf:first>
+                    <swrl:ClassAtom>
+                        <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Authorisation"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                    </swrl:ClassAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:body>
+    </swrl:Imp>
+    <swrl:Imp>
+        <swrl:head>
+            <swrl:AtomList>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <swrl:IndividualPropertyAtom>
+                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#r1"/>
+                    </swrl:IndividualPropertyAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:head>
+        <swrl:body>
+            <swrl:AtomList>
+                <rdf:rest>
+                    <swrl:AtomList>
+                        <rdf:rest>
+                            <swrl:AtomList>
+                                <rdf:rest>
+                                    <swrl:AtomList>
+                                        <rdf:first>
+                                            <swrl:IndividualPropertyAtom>
+                                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasTarget"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#t"/>
+                                            </swrl:IndividualPropertyAtom>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <swrl:AtomList>
+                                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                                <rdf:first>
+                                                    <swrl:IndividualPropertyAtom>
+                                                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;seniorTo"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#r"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#r1"/>
+                                                    </swrl:IndividualPropertyAtom>
+                                                </rdf:first>
+                                            </swrl:AtomList>
+                                        </rdf:rest>
+                                    </swrl:AtomList>
+                                </rdf:rest>
+                                <rdf:first>
+                                    <swrl:IndividualPropertyAtom>
+                                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasSubject"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#s"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#t"/>
+                                    </swrl:IndividualPropertyAtom>
+                                </rdf:first>
+                            </swrl:AtomList>
+                        </rdf:rest>
+                        <rdf:first>
+                            <swrl:IndividualPropertyAtom>
+                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasAttribute"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#r"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#s"/>
+                            </swrl:IndividualPropertyAtom>
+                        </rdf:first>
+                    </swrl:AtomList>
+                </rdf:rest>
+                <rdf:first>
+                    <swrl:ClassAtom>
+                        <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Obligation_N"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#o"/>
+                    </swrl:ClassAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:body>
+    </swrl:Imp>
+    <swrl:Imp>
+        <swrl:body>
+            <swrl:AtomList>
+                <rdf:rest>
+                    <swrl:AtomList>
+                        <rdf:rest>
+                            <swrl:AtomList>
+                                <rdf:first>
+                                    <swrl:IndividualPropertyAtom>
+                                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasSubject"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#s"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#t"/>
+                                    </swrl:IndividualPropertyAtom>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <swrl:AtomList>
+                                        <rdf:first>
+                                            <swrl:IndividualPropertyAtom>
+                                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasTarget"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#t"/>
+                                            </swrl:IndividualPropertyAtom>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <swrl:AtomList>
+                                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                                <rdf:first>
+                                                    <swrl:IndividualPropertyAtom>
+                                                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;seniorTo"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#r"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#r1"/>
+                                                    </swrl:IndividualPropertyAtom>
+                                                </rdf:first>
+                                            </swrl:AtomList>
+                                        </rdf:rest>
+                                    </swrl:AtomList>
+                                </rdf:rest>
+                            </swrl:AtomList>
+                        </rdf:rest>
+                        <rdf:first>
+                            <swrl:IndividualPropertyAtom>
+                                <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;hasAttribute"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#r"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#s"/>
+                            </swrl:IndividualPropertyAtom>
+                        </rdf:first>
+                    </swrl:AtomList>
+                </rdf:rest>
+                <rdf:first>
+                    <swrl:ClassAtom>
+                        <swrl:classPredicate rdf:resource="&Ontologyforpaper3;Permission"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                    </swrl:ClassAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:body>
+        <swrl:head>
+            <swrl:AtomList>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <swrl:IndividualPropertyAtom>
+                        <swrl:propertyPredicate rdf:resource="&Ontologyforpaper3;enforceOn"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#a"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#r1"/>
+                    </swrl:IndividualPropertyAtom>
+                </rdf:first>
+            </swrl:AtomList>
+        </swrl:head>
+    </swrl:Imp>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
